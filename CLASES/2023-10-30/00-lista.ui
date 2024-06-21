@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>206</width>
+    <height>146</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QListWidget" name="lista">
+      <item>
+       <property name="text">
+        <string>Rojo</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Verde</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Azul</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Amarillo</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="seleccion">
+      <property name="text">
+       <string>Seleccion:</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
